@@ -77,14 +77,9 @@
 				B4709CA62361D64A00A218AB /* AppDelegate.swift */,
 				B4709CA82361D64A00A218AB /* SceneDelegate.swift */,
 				B4709CAD2361D64A00A218AB /* ContentView.swift */,
-				B42E47FE2364232300030E02 /* SectionButton.swift */,
-				B42E47F823640FB500030E02 /* SectionView.swift */,
-				B42E47FA23640FCA00030E02 /* CardView.swift */,
-				B42E47FC2364145700030E02 /* CardList.swift */,
-				B42E47F62362DA6800030E02 /* HeroDetail.swift */,
-				B4B8F6A22361E41E00C3AB7A /* HeroItem.swift */,
-				B42E47F22361EBC900030E02 /* HeroRow.swift */,
-				B42E47F42361FFB900030E02 /* MapView.swift */,
+				B4AC18F923642BAF00538A9E /* Section */,
+				B4AC18FA23642BBB00538A9E /* Hero */,
+				B4AC18FB23642BC500538A9E /* SwiftUIWithUIKit */,
 				B4709CAF2361D64C00A218AB /* Assets.xcassets */,
 				B4709CB42361D64C00A218AB /* LaunchScreen.storyboard */,
 				B4709CB72361D64C00A218AB /* Info.plist */,
@@ -100,6 +95,35 @@
 				B4709CB22361D64C00A218AB /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		B4AC18F923642BAF00538A9E /* Section */ = {
+			isa = PBXGroup;
+			children = (
+				B42E47FE2364232300030E02 /* SectionButton.swift */,
+				B42E47F823640FB500030E02 /* SectionView.swift */,
+				B42E47FA23640FCA00030E02 /* CardView.swift */,
+				B42E47FC2364145700030E02 /* CardList.swift */,
+			);
+			path = Section;
+			sourceTree = "<group>";
+		};
+		B4AC18FA23642BBB00538A9E /* Hero */ = {
+			isa = PBXGroup;
+			children = (
+				B42E47F62362DA6800030E02 /* HeroDetail.swift */,
+				B4B8F6A22361E41E00C3AB7A /* HeroItem.swift */,
+				B42E47F22361EBC900030E02 /* HeroRow.swift */,
+			);
+			path = Hero;
+			sourceTree = "<group>";
+		};
+		B4AC18FB23642BC500538A9E /* SwiftUIWithUIKit */ = {
+			isa = PBXGroup;
+			children = (
+				B42E47F42361FFB900030E02 /* MapView.swift */,
+			);
+			path = SwiftUIWithUIKit;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
