@@ -23,7 +23,7 @@ struct SectionButton: View {
                     .frame(height : 160)
                     .shadow(radius: 10)
                 }
-                Spacer()
+               Spacer()
             }
         }
     }

@@ -7,6 +7,10 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		B42E326523657032005B4544 /* Hero.swift in Sources */ = {isa = PBXBuildFile; fileRef = B42E326423657032005B4544 /* Hero.swift */; };
+		B42E326823657443005B4544 /* heros.json in Resources */ = {isa = PBXBuildFile; fileRef = B42E326723657443005B4544 /* heros.json */; };
+		B42E326A23657DE9005B4544 /* Data.swift in Sources */ = {isa = PBXBuildFile; fileRef = B42E326923657DE9005B4544 /* Data.swift */; };
+		B42E326D2365802F005B4544 /* SwiftUIView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B42E326C2365802F005B4544 /* SwiftUIView.swift */; };
 		B42E47F32361EBC900030E02 /* HeroRow.swift in Sources */ = {isa = PBXBuildFile; fileRef = B42E47F22361EBC900030E02 /* HeroRow.swift */; };
 		B42E47F52361FFB900030E02 /* MapView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B42E47F42361FFB900030E02 /* MapView.swift */; };
 		B42E47F72362DA6900030E02 /* HeroDetail.swift in Sources */ = {isa = PBXBuildFile; fileRef = B42E47F62362DA6800030E02 /* HeroDetail.swift */; };
@@ -25,6 +29,10 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		B42E326423657032005B4544 /* Hero.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Hero.swift; sourceTree = "<group>"; };
+		B42E326723657443005B4544 /* heros.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = heros.json; sourceTree = "<group>"; };
+		B42E326923657DE9005B4544 /* Data.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Data.swift; sourceTree = "<group>"; };
+		B42E326C2365802F005B4544 /* SwiftUIView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftUIView.swift; sourceTree = "<group>"; };
 		B42E47F22361EBC900030E02 /* HeroRow.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HeroRow.swift; sourceTree = "<group>"; };
 		B42E47F42361FFB900030E02 /* MapView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MapView.swift; sourceTree = "<group>"; };
 		B42E47F62362DA6800030E02 /* HeroDetail.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HeroDetail.swift; sourceTree = "<group>"; };
@@ -55,6 +63,23 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		B42E32662365706D005B4544 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				B42E326423657032005B4544 /* Hero.swift */,
+				B42E326923657DE9005B4544 /* Data.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		B42E326B23657FF0005B4544 /* home */ = {
+			isa = PBXGroup;
+			children = (
+				B4709CAD2361D64A00A218AB /* ContentView.swift */,
+			);
+			path = home;
+			sourceTree = "<group>";
+		};
 		B4709C9A2361D64A00A218AB = {
 			isa = PBXGroup;
 			children = (
@@ -74,9 +99,12 @@
 		B4709CA52361D64A00A218AB /* TheAvengers */ = {
 			isa = PBXGroup;
 			children = (
+				B42E326723657443005B4544 /* heros.json */,
+				B42E326C2365802F005B4544 /* SwiftUIView.swift */,
 				B4709CA62361D64A00A218AB /* AppDelegate.swift */,
 				B4709CA82361D64A00A218AB /* SceneDelegate.swift */,
-				B4709CAD2361D64A00A218AB /* ContentView.swift */,
+				B42E326B23657FF0005B4544 /* home */,
+				B42E32662365706D005B4544 /* Model */,
 				B4AC18F923642BAF00538A9E /* Section */,
 				B4AC18FA23642BBB00538A9E /* Hero */,
 				B4AC18FB23642BC500538A9E /* SwiftUIWithUIKit */,
@@ -187,6 +215,7 @@
 				B4709CB62361D64C00A218AB /* LaunchScreen.storyboard in Resources */,
 				B4709CB32361D64C00A218AB /* Preview Assets.xcassets in Resources */,
 				B4709CB02361D64C00A218AB /* Assets.xcassets in Resources */,
+				B42E326823657443005B4544 /* heros.json in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -204,11 +233,14 @@
 				B42E47F923640FB500030E02 /* SectionView.swift in Sources */,
 				B4709CA92361D64A00A218AB /* SceneDelegate.swift in Sources */,
 				B42E47FB23640FCA00030E02 /* CardView.swift in Sources */,
+				B42E326A23657DE9005B4544 /* Data.swift in Sources */,
 				B42E47F32361EBC900030E02 /* HeroRow.swift in Sources */,
 				B42E47F72362DA6900030E02 /* HeroDetail.swift in Sources */,
 				B4709CAE2361D64A00A218AB /* ContentView.swift in Sources */,
 				B4B8F6A32361E41E00C3AB7A /* HeroItem.swift in Sources */,
+				B42E326523657032005B4544 /* Hero.swift in Sources */,
 				B4709CAC2361D64A00A218AB /* TheAvengers.xcdatamodeld in Sources */,
+				B42E326D2365802F005B4544 /* SwiftUIView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
