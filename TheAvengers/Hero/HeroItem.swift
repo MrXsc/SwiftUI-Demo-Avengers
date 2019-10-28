@@ -39,8 +39,8 @@ struct HeroItem: View {
     }
 }
 
-//struct HeroItem_Previews: PreviewProvider {
-//    static var previews: some View {
-//        HeroItem(imageName: )
-//    }
-//}
+struct HeroItem_Previews: PreviewProvider {
+    static var previews: some View {
+        HeroItem(imageName:heroData[0].imageName)
+    }
+}

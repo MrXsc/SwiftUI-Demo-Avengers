@@ -26,6 +26,9 @@
 		B4709CB32361D64C00A218AB /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B4709CB22361D64C00A218AB /* Preview Assets.xcassets */; };
 		B4709CB62361D64C00A218AB /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B4709CB42361D64C00A218AB /* LaunchScreen.storyboard */; };
 		B4B8F6A32361E41E00C3AB7A /* HeroItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = B4B8F6A22361E41E00C3AB7A /* HeroItem.swift */; };
+		B4C03CF42365DC6D00E32DC2 /* Article.swift in Sources */ = {isa = PBXBuildFile; fileRef = B4C03CF32365DC6D00E32DC2 /* Article.swift */; };
+		B4C03CF62365DC7500E32DC2 /* article.json in Resources */ = {isa = PBXBuildFile; fileRef = B4C03CF52365DC7500E32DC2 /* article.json */; };
+		B4C03CF82365DC9C00E32DC2 /* ArticleItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = B4C03CF72365DC9C00E32DC2 /* ArticleItem.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -50,6 +53,9 @@
 		B4709CB52361D64C00A218AB /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		B4709CB72361D64C00A218AB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		B4B8F6A22361E41E00C3AB7A /* HeroItem.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HeroItem.swift; sourceTree = "<group>"; };
+		B4C03CF32365DC6D00E32DC2 /* Article.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Article.swift; sourceTree = "<group>"; };
+		B4C03CF52365DC7500E32DC2 /* article.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = article.json; sourceTree = "<group>"; };
+		B4C03CF72365DC9C00E32DC2 /* ArticleItem.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ArticleItem.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -68,6 +74,7 @@
 			children = (
 				B42E326423657032005B4544 /* Hero.swift */,
 				B42E326923657DE9005B4544 /* Data.swift */,
+				B4C03CF32365DC6D00E32DC2 /* Article.swift */,
 			);
 			path = Model;
 			sourceTree = "<group>";
@@ -100,9 +107,11 @@
 			isa = PBXGroup;
 			children = (
 				B42E326723657443005B4544 /* heros.json */,
+				B4C03CF52365DC7500E32DC2 /* article.json */,
 				B42E326C2365802F005B4544 /* SwiftUIView.swift */,
 				B4709CA62361D64A00A218AB /* AppDelegate.swift */,
 				B4709CA82361D64A00A218AB /* SceneDelegate.swift */,
+				B4C03CF72365DC9C00E32DC2 /* ArticleItem.swift */,
 				B42E326B23657FF0005B4544 /* home */,
 				B42E32662365706D005B4544 /* Model */,
 				B4AC18F923642BAF00538A9E /* Section */,
@@ -215,6 +224,7 @@
 				B4709CB62361D64C00A218AB /* LaunchScreen.storyboard in Resources */,
 				B4709CB32361D64C00A218AB /* Preview Assets.xcassets in Resources */,
 				B4709CB02361D64C00A218AB /* Assets.xcassets in Resources */,
+				B4C03CF62365DC7500E32DC2 /* article.json in Resources */,
 				B42E326823657443005B4544 /* heros.json in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -228,6 +238,7 @@
 			files = (
 				B42E47F52361FFB900030E02 /* MapView.swift in Sources */,
 				B42E47FD2364145700030E02 /* CardList.swift in Sources */,
+				B4C03CF82365DC9C00E32DC2 /* ArticleItem.swift in Sources */,
 				B4709CA72361D64A00A218AB /* AppDelegate.swift in Sources */,
 				B42E47FF2364232300030E02 /* SectionButton.swift in Sources */,
 				B42E47F923640FB500030E02 /* SectionView.swift in Sources */,
@@ -238,6 +249,7 @@
 				B42E47F72362DA6900030E02 /* HeroDetail.swift in Sources */,
 				B4709CAE2361D64A00A218AB /* ContentView.swift in Sources */,
 				B4B8F6A32361E41E00C3AB7A /* HeroItem.swift in Sources */,
+				B4C03CF42365DC6D00E32DC2 /* Article.swift in Sources */,
 				B42E326523657032005B4544 /* Hero.swift in Sources */,
 				B4709CAC2361D64A00A218AB /* TheAvengers.xcdatamodeld in Sources */,
 				B42E326D2365802F005B4544 /* SwiftUIView.swift in Sources */,
