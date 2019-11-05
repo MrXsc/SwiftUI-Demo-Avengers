@@ -18,7 +18,6 @@ struct ContentView: View {
                 NavigationLink(destination: SwiftUIView(heros: heroData)) {
                     Text("Call Me")
                 }
-                    
                 .navigationBarTitle(Text("The Avengers"))
             }.padding(.leading).padding(.trailing)
         }
