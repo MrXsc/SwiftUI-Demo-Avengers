@@ -60,7 +60,6 @@ struct OrderButton : View {
         .background(Rectangle()
             .foregroundColor(.blue))
         .cornerRadius(10)
-        
     }
 }
 
