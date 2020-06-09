@@ -1,7 +1,9 @@
 # SwiftUI-Demo-Avengers
 
-![](imageHome.png)
-![](imageSection.png)
+## View
+<img width="400"  src="imageHome.png"/>
+<img width="400"  src="imageSection.png"/>
+
 
 2019-10-27 data flow
 
