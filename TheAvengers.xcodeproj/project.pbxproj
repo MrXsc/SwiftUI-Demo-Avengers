@@ -43,6 +43,7 @@
 		B42E47FA23640FCA00030E02 /* CardView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CardView.swift; sourceTree = "<group>"; };
 		B42E47FC2364145700030E02 /* CardList.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CardList.swift; sourceTree = "<group>"; };
 		B42E47FE2364232300030E02 /* SectionButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SectionButton.swift; sourceTree = "<group>"; };
+		B4430AFB23A794A40060ABD1 /* TheAvengers.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = TheAvengers.entitlements; sourceTree = "<group>"; };
 		B4709CA32361D64A00A218AB /* TheAvengers.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TheAvengers.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		B4709CA62361D64A00A218AB /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		B4709CA82361D64A00A218AB /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -106,6 +107,7 @@
 		B4709CA52361D64A00A218AB /* TheAvengers */ = {
 			isa = PBXGroup;
 			children = (
+				B4430AFB23A794A40060ABD1 /* TheAvengers.entitlements */,
 				B42E326723657443005B4544 /* heros.json */,
 				B4C03CF52365DC7500E32DC2 /* article.json */,
 				B42E326C2365802F005B4544 /* SwiftUIView.swift */,
@@ -388,7 +390,9 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = TheAvengers/TheAvengers.entitlements;
 				CODE_SIGN_STYLE = Automatic;
+				DERIVE_MACCATALYST_PRODUCT_BUNDLE_IDENTIFIER = YES;
 				DEVELOPMENT_ASSET_PATHS = "\"TheAvengers/Preview Content\"";
 				DEVELOPMENT_TEAM = PWN89SAC52;
 				ENABLE_PREVIEWS = YES;
@@ -399,6 +403,7 @@
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = "-point71828.TheAvengers";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTS_MACCATALYST = YES;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
@@ -408,7 +413,9 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = TheAvengers/TheAvengers.entitlements;
 				CODE_SIGN_STYLE = Automatic;
+				DERIVE_MACCATALYST_PRODUCT_BUNDLE_IDENTIFIER = YES;
 				DEVELOPMENT_ASSET_PATHS = "\"TheAvengers/Preview Content\"";
 				DEVELOPMENT_TEAM = PWN89SAC52;
 				ENABLE_PREVIEWS = YES;
@@ -419,6 +426,7 @@
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = "-point71828.TheAvengers";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTS_MACCATALYST = YES;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};

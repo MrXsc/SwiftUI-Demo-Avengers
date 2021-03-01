@@ -26,7 +26,6 @@ struct HeroRow: View {
                 }
             }
         }
-      
     }
 }
 

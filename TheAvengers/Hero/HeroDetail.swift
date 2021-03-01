@@ -66,6 +66,12 @@ struct OrderButton : View {
 //struct HeroDetail_Previews: PreviewProvider {
 //
 //    static var previews: some View {
-//        HeroDetail(hero:herot)
+//        HeroDetail(hero:hero)
 //    }
 //}
+
+struct HeroDetail_Previews: PreviewProvider {
+    static var previews: some View {
+        /*@START_MENU_TOKEN@*/Text("Hello, World!")/*@END_MENU_TOKEN@*/
+    }
+}
